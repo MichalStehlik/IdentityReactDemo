@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityReactDemo", "IdentityReactDemo\IdentityReactDemo.csproj", "{8B6E5A1E-959F-47E0-9DB5-ABA859056961}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B6E5A1E-959F-47E0-9DB5-ABA859056961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6E5A1E-959F-47E0-9DB5-ABA859056961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6E5A1E-959F-47E0-9DB5-ABA859056961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6E5A1E-959F-47E0-9DB5-ABA859056961}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6337DF4-0C32-4268-8F67-52E3C1761F31}
+	EndGlobalSection
+EndGlobal
