@@ -33,7 +33,7 @@ const Public = () => {
 
     useEffect(() => {
         FetchData();
-    }, []);
+    }, [FetchData]);
 
     if (isLoading) {
         return <Spinner />

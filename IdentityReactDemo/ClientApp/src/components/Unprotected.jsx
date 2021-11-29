@@ -32,11 +32,11 @@ const Unprotected = () => {
             .finally(() => {
                 setIsLoading(false);
             })
-    }, []);
+    }, [accessToken]);
 
     useEffect(() => {
         FetchData();
-    }, []);
+    }, [FetchData]);
 
     if (isLoading) {
         return <Spinner color="primary" />

@@ -1,13 +1,17 @@
-import { useAuthContext } from "../providers/AuthProvider";
+ï»¿import { useAuthContext } from "../providers/AuthProvider";
 import { Button } from 'reactstrap';
 
 export const Home = () => {
     const [{ userManager, accessToken }] = useAuthContext();
     return (
         <div className="text-center">
-            {accessToken
-                ? <Button color="danger" onClick={() => { userManager.signoutRedirect() }} >Odhlásit</Button>
-                : <Button color="success" onClick={() => { userManager.signinRedirect() }} >Pøihlásit</Button>
+            {userManager
+                ?
+                    accessToken
+                    ? <Button color="danger" onClick={() => { userManager.signoutRedirect() }} >OdhlÃ¡sit</Button>
+                    : <Button color="success" onClick={() => { userManager.signinRedirect({redirectUrl: "/public"}) }} >PÅ™ihlÃ¡sit</Button>
+                :
+                null
             }
         </div>
     );

@@ -4,7 +4,7 @@ import { useAuthContext } from "../../providers/AuthProvider";
 export const SignInCallback = props => {
     const [{ userManager }] = useAuthContext();
     let navigate = useNavigate();
-    if (userManager) userManager.signinRedirectCallback();
+    if (userManager) userManager.signoutRedirectCallback();
     navigate("/");
     return null;
 }

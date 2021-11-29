@@ -18,7 +18,7 @@ export const USER_SIGNED_OUT = "USER_SIGNED_OUT";
 export const SET_USER_MANAGER = "SET_USER_MANAGER";
 
 Log.logger = console;
-Log.level = Log.ERROR;//Log.DEBUG;
+Log.level = /*Log.ERROR;*/Log.DEBUG;
 
 const initialState = {
     userManager: null,
